@@ -1,0 +1,21 @@
+{
+  "name": "automation_practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cucumberRegression": "npx cucumber-js --retry 1 --parallel 2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1"
+  }
+}
